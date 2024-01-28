@@ -183,9 +183,10 @@ def Get_print_table_top(list_input):
             str1 = ""
             l0 = sorted(item_list, key=lambda l1: l1[0], reverse=True)
             row = l0[0]
-            str1 = str(i+1) + ". " + row[1] + " (" + row[4]  + ")\n ("
+            str1 = str(i+1) + ". <b>" + row[1] + "</b> (" + row[4]  + ")\n ("
             str0.append(str1)
-            str1 = " => " + str(row[2]) + "%)" 
+            str1 = " => " + str(row[2]) + "%) " 
+
             str0.append(str1)                   
 
             l0 = sorted(item_list, key=lambda l1: l1[0])

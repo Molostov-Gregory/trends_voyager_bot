@@ -37,11 +37,13 @@ async def send_message_time8(bot: Bot):
             MTime = 0
             for row in data:
                 Time = row[1]
-                country = row[2] 
+                country = row[2]
                 search = row[3]
                 category = row[4]
                 MTime = row[5]
                 deltatime = row[7]
+                Type = row[9]
+                TypeSearch = row[8]
             if MTime == 8:
                 current_time = dt.now()
 
@@ -50,8 +52,8 @@ async def send_message_time8(bot: Bot):
                 sorter.Category = category
                 sorter.PeriodDays = Time
                 sorter.RequestSearch = search
-                sorter.RequestType = "queries"
-                sorter.TypeSearch = "rising"
+                sorter.RequestType = Type
+                sorter.TypeSearch = TypeSearch
                 sorter.DateFinish = date.today()
                 sorter.DateStart = date.today() - timedelta(days=deltatime)      
         
@@ -104,11 +106,13 @@ async def send_message_time12(bot: Bot):
             MTime = 0
             for row in data:
                 Time = row[1]
-                country = row[2] 
+                country = row[2]
                 search = row[3]
                 category = row[4]
                 MTime = row[5]
                 deltatime = row[7]
+                Type = row[9]
+                TypeSearch = row[8]
             if MTime == 12:
                 current_time = dt.now()
 
@@ -117,8 +121,8 @@ async def send_message_time12(bot: Bot):
                 sorter.Category = category
                 sorter.PeriodDays = Time
                 sorter.RequestSearch = search
-                sorter.RequestType = "queries"
-                sorter.TypeSearch = "rising"
+                sorter.RequestType = Type
+                sorter.TypeSearch = TypeSearch
                 sorter.DateFinish = date.today()
                 sorter.DateStart = date.today() - timedelta(days=deltatime)      
         
@@ -169,11 +173,13 @@ async def send_message_time18(bot: Bot):
             MTime = 0
             for row in data:
                 Time = row[1]
-                country = row[2] 
+                country = row[2]
                 search = row[3]
                 category = row[4]
                 MTime = row[5]
                 deltatime = row[7]
+                Type = row[9]
+                TypeSearch = row[8]
             if MTime == 18:
                 current_time = dt.now()
 
@@ -182,8 +188,8 @@ async def send_message_time18(bot: Bot):
                 sorter.Category = category
                 sorter.PeriodDays = Time
                 sorter.RequestSearch = search
-                sorter.RequestType = "queries"
-                sorter.TypeSearch = "rising"
+                sorter.RequestType = Type
+                sorter.TypeSearch = TypeSearch
                 sorter.DateFinish = date.today()
                 sorter.DateStart = date.today() - timedelta(days=deltatime)      
         
@@ -235,11 +241,13 @@ async def send_message_time21(bot: Bot):
             MTime = 0
             for row in data:
                 Time = row[1]
-                country = row[2] 
+                country = row[2]
                 search = row[3]
                 category = row[4]
                 MTime = row[5]
                 deltatime = row[7]
+                Type = row[9]
+                TypeSearch = row[8]
             if MTime == 21:
                 current_time = dt.now()
 
@@ -248,8 +256,8 @@ async def send_message_time21(bot: Bot):
                 sorter.Category = category
                 sorter.PeriodDays = Time
                 sorter.RequestSearch = search
-                sorter.RequestType = "queries"
-                sorter.TypeSearch = "rising"
+                sorter.RequestType = Type
+                sorter.TypeSearch = TypeSearch
                 sorter.DateFinish = date.today()
                 sorter.DateStart = date.today() - timedelta(days=deltatime)      
         
