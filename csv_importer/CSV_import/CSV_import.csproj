@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CsvLibrary\CsvLibrary.csproj" />
     <ProjectReference Include="..\DbSqliteLibrary\DbSqliteLibrary.csproj" />
   </ItemGroup>
 

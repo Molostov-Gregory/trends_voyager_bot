@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV_import", "CSV_import.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbSqliteLibrary", "..\DbSqliteLibrary\DbSqliteLibrary.csproj", "{EEC36ABB-DA38-4780-B2D5-C47081E6E833}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvLibrary", "..\CsvLibrary\CsvLibrary.csproj", "{65E9CD49-992C-44CD-BCC5-AB7C11A8F592}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{EEC36ABB-DA38-4780-B2D5-C47081E6E833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC36ABB-DA38-4780-B2D5-C47081E6E833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC36ABB-DA38-4780-B2D5-C47081E6E833}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65E9CD49-992C-44CD-BCC5-AB7C11A8F592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65E9CD49-992C-44CD-BCC5-AB7C11A8F592}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65E9CD49-992C-44CD-BCC5-AB7C11A8F592}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65E9CD49-992C-44CD-BCC5-AB7C11A8F592}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

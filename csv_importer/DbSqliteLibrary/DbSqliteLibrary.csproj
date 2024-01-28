@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ApplicationDefinition Include="appsettings.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ApplicationDefinition>
     <ApplicationDefinition Include="SqlManager.cs" />
   </ItemGroup>
 
